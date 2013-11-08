@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+'use strict';
+
+// Nodejs libs.
+var path = require('path');
+var basedir = path.resolve(__dirname + '/../');
+
+require('../node_modules/grunt/lib/grunt').cli({
+	base: basedir,
+	gruntfile: path.join(basedir, 'Gruntfile.js')
+});

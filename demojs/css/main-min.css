@@ -1,0 +1,129 @@
+.page-container .breadcrumb .oprations {
+  padding-top: 3px;
+  margin-top: 10px;
+  float: left;
+}
+.main-sidenav-container .live-statistics {
+  width: 962px;
+  background: #fcfcfc;
+  border: 1px solid #DDDDDD;
+  min-height: 156px;
+  padding: 19px 19px 65px;
+  float: right;
+  position: relative;
+}
+.liveDel,
+.liveEdit {
+  margin-left: 10px;
+}
+.main-sidenav-container .title-wrap {
+  border-bottom: 2px dotted #CBCBCB;
+  padding-bottom: 20px;
+}
+.main-sidenav-container .statistics-icon {
+  margin: 5px 10px 0 0;
+  width: 15px;
+  height: 15px;
+  float: left;
+}
+.main-sidenav-container .statistics-title {
+  display: inline;
+  font-size: 16px;
+  font-weight: normal;
+  color: #1D1D1D;
+  float: left;
+}
+.main-sidenav-container .courseinfo {
+  float: right;
+  color: #555;
+  font-weight: bold;
+  cursor: pointer;
+  padding-left: 15px;
+  background: url("http://www.ablesky-a.com:8080/ableskystatics/images/livecourse/goback-icon.png") no-repeat scroll 0 3px transparent;
+}
+.main-sidenav-container .courseinfo:hover {
+  color: #09f;
+}
+.main-sidenav-container .diagram-wrap {
+  padding: 18px 10px 0;
+}
+.main-sidenav-container #J_Diagram {
+  border: 1px solid #eee;
+}
+.diagram-wrap .total-count {
+  padding-bottom: 12px;
+  color: #1D1D1D;
+  font-weight: bold;
+}
+.main-sidenav-container .data-wrap {
+  padding: 10px 10px 0;
+}
+.data-wrap .data-title {
+  color: #1D1D1D;
+  font-weight: bold;
+}
+.data-wrap .table-wrap {
+  background: #fff;
+  padding-top: 10px;
+}
+.table-wrap .searchWrap {
+  padding: 0 0 35px 20px;
+  border-bottom: 1px dotted #CBCBCB;
+}
+.table-wrap .statistics-table {
+  border: 1px solid #eee;
+  margin-top: 15px;
+  padding: 0 20px;
+}
+.table-wrap .dataTables_wrapper {
+  border: 1px solid #eee;
+}
+.table-wrap .live-type {
+  width: 120px;
+  z-index: 1;
+}
+.table-wrap .disval {
+  width: 100px;
+}
+.table-wrap .dropmenu {
+  width: 100px;
+  display: none;
+}
+.table-wrap .dataTables_filter {
+  float: left;
+  margin-left: 10px;
+}
+.table-wrap .dataTables_filter .search-content {
+  width: 150px;
+  color: #ccc;
+}
+.table-wrap .exportExecl {
+  float: right;
+  margin-right: 20px;
+}
+#J_statistics_wrapper .userName,
+#J_statistics_wrapper .screenName {
+  color: #555;
+}
+#J_statistics_wrapper .userName:hover,
+#J_statistics_wrapper .screenName:hover {
+  color: #09f;
+}
+#J_statistics_wrapper .isShowMore {
+  color: #555;
+  float: right;
+  cursor: pointer;
+  display: block;
+  width: 48px;
+}
+#J_statistics_wrapper .isShowMore:hover {
+  color: #09f;
+}
+#J_statistics_wrapper .repeatEnterTime {
+  margin-left: -48px;
+  line-height: 25px;
+  height: 25px;
+}
+#J_statistics_wrapper .boldFont {
+  font-weight: bold;
+}
