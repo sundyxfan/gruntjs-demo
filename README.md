@@ -1,4 +1,3 @@
-
 ## demo ![npm](https://badge.fury.io/js/demo.png)
 
 gruntjs  is a front-end packsge management 
@@ -20,9 +19,7 @@ $ demo
 ### Example
 ````javascript
 var demo = require('demo');
-````
-
-### API
+```
 
 
 ### Contributing
